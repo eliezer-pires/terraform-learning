@@ -18,13 +18,13 @@ data "aws_s3_bucket" "east1-bucket-us" {
 }
 # Step 3: Adicionando Resource Block
 resource "aws_s3_bucket" "east1-bucket-us" {
-    bucket = var.ep_bucket_east1
-    force_destroy = true
+  bucket        = var.ep_bucket_east1
+  force_destroy = true
 
-    tags = {
-       Name        = "EliezerPires bucket us-east-1"
-       Environment = "Dev"
-    }
+  tags = {
+    Name        = "EliezerPires bucket us-east-1"
+    Environment = "Dev"
+  }
 }
 
 resource "aws_instance" "web" {
