@@ -19,8 +19,5 @@ tf-made-easy-book/.terraform/providers/registry.terraform.io/hashicorp/aws/5.88.
 tf-made-easy-book/dynamodb/.terraform.lock.hcl
 tf-made-easy-book/dynamodb/.terraform/providers/registry.terraform.io/hashicorp/aws/5.88.0/linux_amd64/LICENSE.txt
 tf-made-easy-book/dynamodb/.terraform/providers/registry.terraform.io/hashicorp/aws/5.88.0/linux_amd64/terraform-provider-aws_v5.88.0_x5
-tf-docs-tutorials/learn-terraform-init/.terraform/modules/modules.json
-tf-docs-tutorials/learn-terraform-apply/.terraform
 tf-made-easy-book/.terraform/environment
 tf-made-easy-book/terraform.tfvars
-tf-docs-tutorials/learn-terraform-import
